@@ -6,11 +6,11 @@ https://ijassa.ipu.ru/index.php/ijassa/article/view/1492
 
 A linear state-space model is described as a time series:
 
-\[
+$$
 x_{t+1}=Ax_t,\qquad y_t=Cx_t,
-\]
+$$
 
-where \(A\) is the transition matrix, \(C\) is the observation matrix, and `k` is the dimension (meta parameter).
+where $A$ is the transition matrix, $C$ is the observation matrix, and `k` is the dimension (meta parameter).
 
 The model is based on a block Hankel matrix and truncated SVD.
 
